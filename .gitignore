@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+env/
+.env
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+
+# Runtime data — never commit profile photos or generated biometric data
+input/profile_images/*
+!input/profile_images/.gitkeep
+output/*
+!output/.gitkeep
+models/*
+!models/.gitkeep
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.onnx
+*.bin
+
+# Logs
+*.log
+
+# Generated reports
+*.csv
+*.xlsx
